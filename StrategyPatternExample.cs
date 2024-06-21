@@ -3,7 +3,12 @@ using System.Linq;
 
 namespace StrategyPattern_DiscountSaleExample
 {
-
+     /*
+     for best practices don't write all tasks or classes in one file
+     must to split all of them in its owner file.
+     so this just for toturial
+     and easy to moving from class to other.
+    */
     public interface IStrategyDiscound
     {
         decimal ApplayDiscount(decimal sale);
